@@ -1,0 +1,14 @@
+exif
+haversine
+torch>=1.1
+torchvision>=0.3
+numpy
+opencv-python
+tqdm>=4.36.0
+matplotlib
+plotly
+scipy
+h5py
+kornia>=0.6.7
+gdown
+pycolmap>=0.3.0
