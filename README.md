@@ -139,7 +139,7 @@ Script copies images from **image_dir** to **results_dir/building_images** and c
 Assume that you have a folder of images at **src_path** and you want to resize them by 2 and create clusters of those images.
 An example of how to use this repo is the following:
 
-    python copy_images.py --image_dir **src_path**
+    python copy_images.py --image_dir src_path
     python resize_images.py --resize_coefficient 2
     python hloc_netvlad.py --num_to_match 10
     python create_clusters.py
